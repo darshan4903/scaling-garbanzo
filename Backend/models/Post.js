@@ -25,6 +25,14 @@ const PostSchema = new mongoose.Schema(
     companyLogo: {
       type: String,
     },
+    company:{
+      type:String,
+      required:true,
+    },
+    interviewDate:{
+      type:Date,
+      require:true,
+    },
     onCampus: {
       type: Boolean,
       required: true,
